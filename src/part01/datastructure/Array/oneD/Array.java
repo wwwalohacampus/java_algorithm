@@ -12,6 +12,11 @@ package part01.datastructure.Array.oneD;
  */
 public class Array {
 	static int arr[];
+	
+	public void sum() {
+		System.out.println("aaa");
+	}
+	
 	public static void main(String[] args) {
 		arr = new int[7];
 		arr[0] = 1;
@@ -21,6 +26,14 @@ public class Array {
 		arr[4] = 5;
 		arr[5] = 6;
 		arr[6] = 7;
+		
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		
+		for (int a : arr) {
+			System.out.println(a + " ");
+		}
 		
 		System.out.println("arr[2] = " + arr[2]);
 		

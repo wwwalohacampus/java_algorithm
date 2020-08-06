@@ -14,6 +14,20 @@ public class Arrays {
 		arr[1][1] = 22;
 		arr[1][2] = 23;
 		
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr.length; j++) {
+				System.out.print(arr[i][j] + " ");
+			}
+			System.out.println();
+		}
+		
+		for (int[] a : arr) {
+			for (int b : a) {
+				System.out.println(b);   // arr[i][j]
+			}
+			System.out.println();
+		}
+		
 		System.out.println("arr[1][1] : " + arr[1][1]);
 	}
 }

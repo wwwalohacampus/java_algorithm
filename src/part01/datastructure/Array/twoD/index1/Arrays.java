@@ -15,6 +15,13 @@ public class Arrays {
 		arr[2][1] = 21;
 		arr[2][2] = 22;
 		
+		for (int i = 1; i < arr.length; i++) {
+			for (int j = 1; j < arr.length; j++) {
+				System.out.print(arr[i][j] + " ");
+			}
+			System.out.println();
+		}
+		
 		
 		System.out.println("arr[2][2] : " + arr[2][2]);
 	}
